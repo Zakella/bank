@@ -1,4 +1,4 @@
-package com.example.bank.repo;
+package com.example.bank.repository;
 
 import java.util.List;
 

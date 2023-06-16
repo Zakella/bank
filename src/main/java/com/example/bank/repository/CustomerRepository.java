@@ -1,4 +1,4 @@
-package com.example.bank.repo;
+package com.example.bank.repository;
 
 import com.example.bank.model.Customer;
 import org.springframework.data.repository.CrudRepository;

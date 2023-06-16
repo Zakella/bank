@@ -1,15 +1,16 @@
-package com.example.bank.controller;;
+package com.example.bank.controller;
 
-import com.example.bank.model.Notice;
-import com.example.bank.repo.NoticeRepository;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.CacheControl;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+import com.example.bank.model.Notice;
+import com.example.bank.repository.NoticeRepository;
 
 @RestController
 public class NoticesController {
@@ -28,6 +29,5 @@ public class NoticesController {
             return null;
         }
     }
-
 
 }
